@@ -19,3 +19,6 @@ npx cap open android   # أو ios
 
 لتشغيله على هاتف
 ionic serve --lab
+
+kksk
+mmdsmd
