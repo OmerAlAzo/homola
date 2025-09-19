@@ -1,0 +1,7 @@
+{
+  "name": "truckApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
