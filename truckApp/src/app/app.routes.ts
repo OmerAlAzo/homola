@@ -3,16 +3,8 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
 
 
-  {
-    path: '',
-    redirectTo: 'role-select',
-    pathMatch: 'full',
-  },
-  {
-    path: 'role-select',
-    loadComponent: () =>
-      import('./onboarding/role-select/role-select.component').then((m) => m.RoleSelectComponent),
-  },
+
+ 
   // {
   //   path: 'driver-register',
   //   loadComponent: () =>

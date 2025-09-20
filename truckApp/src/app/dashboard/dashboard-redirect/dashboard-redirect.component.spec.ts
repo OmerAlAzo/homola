@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { RoleSelectComponent } from './role-select.component';
+import { DashboardRedirectComponent } from './dashboard-redirect.component';
 
-describe('RoleSelectComponent', () => {
-  let component: RoleSelectComponent;
-  let fixture: ComponentFixture<RoleSelectComponent>;
+describe('DashboardRedirectComponent', () => {
+  let component: DashboardRedirectComponent;
+  let fixture: ComponentFixture<DashboardRedirectComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ RoleSelectComponent ],
+      declarations: [ DashboardRedirectComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(RoleSelectComponent);
+    fixture = TestBed.createComponent(DashboardRedirectComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));
